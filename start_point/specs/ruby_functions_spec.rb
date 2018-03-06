@@ -55,7 +55,7 @@ class Functions_Practice < MiniTest::Test
     assert_equal( "September", ninth_month_string )
   end
 
-  def test_substring()
+  def test_number_to_short_month_name()
     first_month_string = number_to_short_month_name( 1 )
     third_month_string = number_to_short_month_name( 3 )
     ninth_month_string = number_to_short_month_name( 9 )
